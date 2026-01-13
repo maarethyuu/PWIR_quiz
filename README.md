@@ -18,23 +18,23 @@ Gra sieciowa typu **klient-serwer** zrealizowana w języku Java. System pozwala 
 
 ## Przykłady interakcji
 1. Logowanie
-   gracz wpisuje nick "szeryf". klient wysyła, a serwer rejestruje gracza
-   klient: JOIN:szeryf
-   serwer: dodaje gracza do lobby
+   - gracz wpisuje nick "szeryf". klient wysyła, a serwer rejestruje gracza
+   - klient: JOIN:szeryf
+   - serwer: dodaje gracza do lobby
 2. Start gry
-   jeden z graczy klika przycisk start.
-   klient: START
-   serwer: losuje 5 pytań z puli i wysyła pierwsze zapytanie do wszystkich
-   serwer -> wszyscy: QUESTION: [Pytanie 1/5]
+   - jeden z graczy klika przycisk start.
+   - klient: START
+   - serwer: losuje 5 pytań z puli i wysyła pierwsze zapytanie do wszystkich
+   - serwer -> wszyscy: QUESTION: [Pytanie 1/5]
 3. Rozgrywka
-   gracz wybiera odpowiedź b (indeks 1)
-   klient: ANSWER:1
-   serwer: sprawdza poprawność. jeśli ok - dodaje punkt
-   serwer -> wszyscy: SCORE:szeryf=1;bandyta=0;
-   gdy wszyscy odpowiedzą, serwer automatycznie wysyła kolejne pytanie
+   - gracz wybiera odpowiedź b (indeks 1)
+   - klient: ANSWER:1
+   - serwer: sprawdza poprawność. jeśli ok - dodaje punkt
+   - serwer -> wszyscy: SCORE:szeryf=1;bandyta=0;
+   - gdy wszyscy odpowiedzą, serwer automatycznie wysyła kolejne pytanie
 5. Zakończenie
-   po 5 pytaniach serwer kończy grę
-   serwer -> wszyscy: FINISH:Koniec gry! Sprawdź ranking
+   -  po 5 pytaniach serwer kończy grę
+   - serwer -> wszyscy: FINISH:Koniec gry! Sprawdź ranking
 
    Projekt wykonany w ramach zaliczenia przedmioty Programowanie współbieżne i rozproszone.
    
