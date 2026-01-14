@@ -2,7 +2,7 @@
 Gra sieciowa typu **klient-serwer** zrealizowana w języku Java. System pozwala na przeprowadzenie turnieju wiedzy dla wielu graczy jednocześnie. Centralny serwer zarządza logiką gry, a klienci łączą się, aby odpowiadać na pytania w tym samym czasie.
 
 ## Kluczowe funkcjonalności
-1. **Architektura klient-serwer
+1. **Architektura klient-serwer**
    * serwer działa wielowątkowo
    * komunikacja odbywa się tekstowym protokołem własnym przez socket
 2. **Mechanika gry**
@@ -36,7 +36,7 @@ Gra sieciowa typu **klient-serwer** zrealizowana w języku Java. System pozwala 
    -  po 5 pytaniach serwer kończy grę
    - serwer -> wszyscy: FINISH:Koniec gry! Sprawdź ranking
 
-   Projekt wykonany w ramach zaliczenia przedmioty Programowanie współbieżne i rozproszone.
+   Projekt wykonany w ramach zaliczenia przedmiotu Programowanie współbieżne i rozproszone.
    
 
 
