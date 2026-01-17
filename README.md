@@ -14,7 +14,15 @@ Gra sieciowa typu **klient-serwer** zrealizowana w języku Java. System pozwala 
    * po każdej odpowiedzi serwer rozsyła zaktualizowany ranking punktowy do wszystkich podłączonych klientów
   
 ## Instrukcja uruchomienia
+### Uruchomienie serwera
+```bash
+mvn clean compile exec:java "-Dexec.mainClass=com.example.quiz.server.QuizServer"
+```
 
+### Uruchomienie klienta
+```bash
+mvn clean compile exec:java "-Dexec.mainClass=com.example.quiz.client.QuizClientApp"
+```
 
 ## Przykłady interakcji
 1. Logowanie
